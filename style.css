@@ -1,0 +1,100 @@
+body{
+    font-family: arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    color: #626262;
+}
+
+#nav-container{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5px 10px 5px;
+}
+
+#navlink-l li,
+#navlink-r li{
+    display: inline-block;
+    margin:10px;
+}
+
+#left-nav{
+    margin-top: 10px;
+}
+
+#sign-in{
+    width: 5rem;
+    height: 2rem;
+    padding: 5px;
+    color: white;
+    background-color:#4484F5;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+#container-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+#search-box{
+    display: flex;
+    justify-content: center;
+}
+
+#searchbox{
+    width: 30rem;
+    height: 2rem;
+    margin-top: 2.5rem;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    font-size: 25px;
+}
+
+#srch-btn1{
+    width: 9.5rem;
+    height: 2.5rem;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#srch-btn2{
+    width: 9.5rem;
+    height: 2.5rem;
+    background-color: #F4F4F4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 1rem;
+    font-size: 15px;
+}
+
+#foot-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #F2F2F2;
+    border-top: 1px solid gray;
+}
+
+#footlink-l li,
+#footlink-r li{
+    display: inline-block;
+    margin: 10px;
+}
